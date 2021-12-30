@@ -1,23 +1,14 @@
-import logo from './logo.svg';
 import { AppCont } from './AppStyles';
+import Card from './containers/Card/Card';
+import RoomCard from './containers/RoomsCard/RoomCard';
+import Sidebar from './containers/Sidebar/Sidebar';
 
 function App() {
   return (
     <AppCont>
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Card/>
+      <RoomCard/>
+      <Sidebar/>
     </AppCont>
   );
 }
