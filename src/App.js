@@ -6,9 +6,9 @@ import Sidebar from './containers/Sidebar/Sidebar';
 function App() {
   return (
     <AppCont>
-      <Card/>
-      <RoomCard/>
       <Sidebar/>
+      <RoomCard/>
+      <Card/>
     </AppCont>
   );
 }

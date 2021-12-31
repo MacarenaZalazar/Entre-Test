@@ -23,6 +23,7 @@ export const HeaderText = styled.div`
     width: 80%;
     padding-left: 15px;
     .name{
+        color: #18243A;
         font-style: normal;
         font-weight: bold;
         font-size: 15.7594px;
@@ -37,18 +38,17 @@ export const Image = styled.div`
     border-radius: 100%;
     width: 49.25px;
     height: 49.25px;
-    border: 0.10411px solid #000000;
     box-sizing: border-box;
 `
 export const ActionCont = styled.div`
-display: flex;
-justify-content: space-between;
-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
 `
 export const NumberCont = styled.div`
-display: flex;
-justify-content: space-between;
-width: 90%;
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
 `
 
 export const Button = styled.div`

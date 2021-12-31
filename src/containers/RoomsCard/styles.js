@@ -17,9 +17,10 @@ export const Title = styled.div`
     font-weight: bold;
     font-size: 30px;
     line-height: 180%;
-    width:90%;
+    width:93%;
     display: flex;
     justify-content: space-between;
+    color: #18243A;
 `
 
 export const ImagesCont = styled.div`

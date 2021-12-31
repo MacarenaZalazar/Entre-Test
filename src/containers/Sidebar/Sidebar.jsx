@@ -21,7 +21,6 @@ const Sidebar = () => {
                 </ActionCont>
             </HeaderText>
             </Header>
-          
             <NumberCont>
                 <Number num='5.6K' text='Followers'/>
                 <Number num='1.2K' text='Following'/>

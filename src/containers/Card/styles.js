@@ -21,23 +21,66 @@ export const HeaderText = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-between;
     width: 80%;
+    .link{
+        color: #00A3FF;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 12.4932px;
+        line-height: 150%;
+        letter-spacing: 0.03em;
+    }
+    .big{
+        font-style: normal;
+        font-weight: bold;
+        font-size: 20.8219px;
+        color:#18243A;
+        line-height: 150%;
+    }
+    .small{
+        font-style: normal;
+        font-weight: 600;
+        font-size: 13px;
+        color: #B9B9B9;
+        line-height: 150%;
+    }
 `
 export const Row =  styled.div`
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     padding-left: 20px;
     width: 100%;
     .title{
-        display: inline-flex;
-    }
-    .left{
-        justify-self: start;
-    }
-    .right{
-        justify-self: end;
+        display:flex;
+        align-items: center;
     }
 `
+
+export const Price = styled.div`
+display: flex;
+align-items:center;
+text-align: center;
+margin: 0 10px;
+justify-content:center;
+width: 96px;
+height: 21.33px;
+background: #F6F6F6;
+border-radius: 149.333px;
+font-style: normal;
+font-weight: 500;
+font-size: 13px;
+line-height: 14px;
+color: #828282;
+span{
+    font-style: bold;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 14px;
+}
+`
+
 export const Image = styled.div`
     background-image: url(${props => props.img});
     background-size: cover;
@@ -46,17 +89,35 @@ export const Image = styled.div`
     border-radius: 100%;
     width: 70.79px;
     height: 70.79px;
-    border: 0.10411px solid #000000;
     box-sizing: border-box;
+    display:flex;
+    justify-content: center;
+    align-items: flex-end;
+    .pro{
+        width: 34.8px;
+        height: 18.74px;
+        background: #003399;
+        border-radius: 3.56947px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        p{
+            font-style: normal;
+            font-weight: 500;
+            font-size: 10.7084px;
+            line-height: 13px;
+            color:#FFFF;
+        }
+    }
 }
 `
+
 export const TextCont =  styled.div`
     display: flex;
     flex-direction: column;
     padding: 20px;
-    
     width: auto;
-
 `
 
 export const Line = styled.div`
@@ -73,14 +134,19 @@ export const Text = styled.div`
     line-height: 190%;
     color: #000;
     padding: 10px;
+    color: #4F4F4F;
+    span{
+        font-weight: bold;
+        color:#003399;
+    }
   
 `
 
 export const Actions = styled.div`
     display: flex;
     flex-direction: row;
-    align-items: flex-start;
-    justify-content: space-around;
+    justify-content: space-between;
     width: 90%; 
+    padding: 10px;
 `
 
