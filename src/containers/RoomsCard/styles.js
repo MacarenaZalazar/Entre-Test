@@ -5,9 +5,9 @@ export const Container = styled.div`
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    padding: 30px;
+    padding: 20px;
     width: 389px;
-    height: 266.54px;
+    height: auto;
     background: #FFFFFF;
     border-radius: 16.7412px;
 `
@@ -17,7 +17,8 @@ export const Title = styled.div`
     font-weight: bold;
     font-size: 30px;
     line-height: 180%;
-    width:93%;
+    padding: 5px 0px;
+    width:100%;
     display: flex;
     justify-content: space-between;
     color: #18243A;
@@ -28,6 +29,7 @@ export const ImagesCont = styled.div`
     display: flex;
     justify-content: space-between;
     align-items:center;
+    margin: 10px 0px;
     .number{  
         padding-top: 3px;
         color:#4F4F4F;
@@ -68,8 +70,9 @@ export const Image = styled.div`
 export const Button = styled.div`
     background: #33CCFF;
     border-radius: 10px;
+    margin-top: 10px;
     padding: 20px;
-    width: 85%;
+    width: 90%;
     color: white;
     display: flex;
     flex-direction: row;

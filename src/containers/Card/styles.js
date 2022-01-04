@@ -2,14 +2,14 @@ import styled from "styled-components";
 
 export const Container = styled.div`
     width: 679px;
-    height: 271px;
+    height: auto;
     background: #FFFFFF;
     border-radius: 12px;
     display:flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-left: 25px;
+    padding: 15px;
 `
 export const Header = styled.div`
     display: flex;
@@ -22,7 +22,7 @@ export const HeaderText = styled.div`
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    width: 80%;
+    width: 100%;
     .link{
         color: #00A3FF;
         font-style: normal;
@@ -50,8 +50,8 @@ export const Row =  styled.div`
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-left: 20px;
-    width: 100%;
+    padding-left: 10px;
+    width: 97%;
     .title{
         display:flex;
         align-items: center;
@@ -126,8 +126,8 @@ export const Line = styled.div`
     border: 1px solid #E0E0E0;
 `
 export const Text = styled.div`
-    width: 623px;
-    height: 81px;
+    width: 100%;
+    height: auto;
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
@@ -146,7 +146,7 @@ export const Actions = styled.div`
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 90%; 
-    padding: 10px;
+    width: 100%; 
+    padding-top: 10px;
 `
 

@@ -5,7 +5,7 @@ export const Container = styled.div`
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    padding: 17.2583px 19.2887px;
+    padding: 15px 16px;
     position: relative;
     width: 326.58px;
     height: 207.38px;
